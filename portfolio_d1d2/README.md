@@ -1,5 +1,5 @@
 # Lifechanger
-## My task was: to do the Desktop 1/ Desktop 2
+## My task was: TODO the Desktop 1/ Desktop 2
 --> That's why I named the folder portfolio_d1d2.
 
 Figma template for my practice:
