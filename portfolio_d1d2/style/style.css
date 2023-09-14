@@ -190,11 +190,11 @@ li {
 
 body {
   display: flex;
-padding: 81px 214px 291px 182px;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-gap: 243px;
+  padding: 81px 214px 291px 182px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 243px;
 }
 
 section {
@@ -280,7 +280,6 @@ section {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
 }
-
 
 /* hamburger menu */
 .hamburger-menu {
@@ -409,7 +408,6 @@ main {
 }
 
 .hero-right {
-   
   min-width: 40%;
   max-width: 320px;
 }
