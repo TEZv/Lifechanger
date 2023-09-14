@@ -7,13 +7,22 @@
   --inverse-subheader-font-color: lightgrey;
 }
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 992px) {
   h1 {
     font-size: 2.5rem;
   }
+  .nav-primary {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 992px) {
+  .portrait {
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
   h1 {
     font-size: 2rem;
   }
@@ -23,38 +32,71 @@
   .main-right {
     max-width: 100%;
   }
-}
-
-@media screen and (max-width: 767px) {
   .main-container {
     padding: 60px 15px 60px 15px;
   }
-}
-
-@media screen and (max-width: 767px) {
   .nav-container {
     padding: 20px 15px 20px 15px;
   }
 }
 
-@media screen and (max-width: 1026px) {
-  .nav-primary {
-    display: none;
+@media screen and (max-width: 480px) {
+  body {
+    display: block;
+    max-width: 550px;
+    max-height: 550px;
   }
-}
-
-@media screen and (max-width: 1000px) {
+  h1 {
+    width: 50%;
+    margin-top: -140px;
+  }
+  ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  li {
+    margin-bottom: 0;
+  }
   .main-left {
-    padding-bottom: 40px;
+    max-width: 100%;
   }
   .main-right {
-    margin-bottom: -50px;
+    max-width: 100%;
   }
-}
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-@media screen and (min-width: 1000px) {
-  .portrait {
-    margin-right: auto;
+  .projects {
+    position: absolute;
+    top: 15px;
+    left: 192px;
+  }
+
+  .contact {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+  }
+
+  .nav-primary {
+    position: absolute;
+    top: 115px;
+    left: 0px;
+  }
+  .nav-logos {
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    list-style-type: none;
+    margin: 0;
+  }
+
+  .main-container {
+    height: 30px;
+    gap: 29px;
   }
 }
 
@@ -65,14 +107,17 @@
 
 body {
   display: flex;
-  padding: 81px 214px 291px 182px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 243px;
+  padding: 81px 214px 291px 182px;
+  width: 1204px;
+  margin-left: 180px;
 }
 
 main {
+  margin-left: 40px;
+  margin-top: 243px;
   width: 1204px;
   height: 350px;
 }
@@ -103,7 +148,6 @@ h1 > span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: Poppins;
-  font-size: 58px;
   font-style: normal;
   font-weight: 700;
   line-height: 70px;
@@ -115,7 +159,6 @@ h1 > span {
   justify-content: space-between;
   width: 1193px;
   height: 59px;
-  /* position: fixed; */
 }
 
 .nav-logo {
@@ -169,7 +212,6 @@ h1 > span {
   display: flex;
   width: 1204px;
   height: 350px;
-  padding-top: 19px;
   align-items: center;
   gap: 219px;
 }
