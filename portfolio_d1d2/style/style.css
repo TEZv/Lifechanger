@@ -1,31 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Lobster&family=Pacifico&display=swap");
 
 :root {
-  --background-color: white;
-  --font-color: black;
-  --subheader-font-color: darkgrey;
-
+  --Solid-Heading: #42446e;
   --inverse-background-color: black;
   --inverse-font-color: white;
   --inverse-subheader-font-color: lightgrey;
-}
-
-* {
-  padding: 0px;
-  margin: 0px;
-  font-family: "Lobster", cursive;
-}
-
-.fas {
-  margin-right: 4px;
-}
-
-h1 {
-  /* color: purple; */
-  font-size: 3.35rem;
-  line-height: 1.1;
-  letter-spacing: 0.05rem;
-  font-family: "Pacifico", cursive;
 }
 
 @media screen and (max-width: 1130px) {
@@ -40,37 +19,31 @@ h1 {
   }
 }
 
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  display: flex;
+  padding: 81px 214px 291px 182px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 243px;
+}
+
 h1 > span {
-  background-image: linear-gradient(
-    108deg,
-    #b16cea 8%,
-    #ff5e69 40%,
-    #ff8a56 77%,
-    #ffa84b 91%
-  );
+  background: linear-gradient(90deg, #13b0f5 30%, #a270ff 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-h2 {
-  color: black;
-  text-align: center;
-  font-size: 1.2rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  font-family: "Caveat", cursive;
-}
-
-h2 > span {
-  background-image: linear-gradient(
-    108deg,
-    #b16cea 8%,
-    #ff5e69 40%,
-    #ff8a56 77%,
-    #ffa84b 91%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-family: Poppins;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
 }
 
 h3 {
@@ -188,34 +161,6 @@ li {
   color: unset;
 }
 
-body {
-  display: flex;
-  padding: 81px 214px 291px 182px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 243px;
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
-  overflow-x: hidden;
-}
-
-.section-container {
-  width: 80vw;
-  max-width: 1080px;
-}
-
-.section-container-slim {
-  padding: 60px;
-  width: 80vw;
-  max-width: 700px;
-}
-
 @media screen and (max-width: 767px) {
   .section-container {
     padding: 60px 15px 60px 15px;
@@ -243,6 +188,11 @@ section {
 
 .menu-logo {
   height: 59px;
+}
+
+.menu-svg {
+  width: 30px;
+  height: 30px;
 }
 
 .menu-logos {
@@ -379,15 +329,21 @@ main {
   justify-content: space-between;
 }
 
-/* .hero-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
-  min-width: 60%;
-  max-width: 480px;
-  margin-right: auto;
-} */
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: var(--Solid-Heading);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 70px; /* 120.69% */
+  letter-spacing: -1px;
+}
+
+.hero-left {
+  margin-top: 45px;
+  width: 636px;
+  height: 297px;
+}
 
 @media screen and (max-width: 1000px) {
   .hero-left {
@@ -407,11 +363,6 @@ main {
   max-width: 540px;
 }
 
-.hero-right {
-  min-width: 40%;
-  max-width: 320px;
-}
-
 @media screen and (max-width: 1000px) {
   .hero-right {
     margin-bottom: -50px;
@@ -425,9 +376,8 @@ main {
 } */
 
 .portrait {
-  width: 340px;
-  max-width: 95vw;
-  margin-left: 20px;
+  width: 350px;
+  height: 350px;
 }
 
 @media screen and (min-width: 1000px) {
