@@ -17,16 +17,16 @@
   h1 {
     font-size: 2rem;
   }
-  .hero-left {
+  .main-left {
     max-width: 100%;
   }
-  .hero-right {
+  .main-right {
     max-width: 100%;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .section-container {
+  .main-container {
     padding: 60px 15px 60px 15px;
   }
 }
@@ -38,16 +38,16 @@
 }
 
 @media screen and (max-width: 1026px) {
-  .primary-menu {
+  .nav-primary {
     display: none;
   }
 }
 
 @media screen and (max-width: 1000px) {
-  .hero-left {
+  .main-left {
     padding-bottom: 40px;
   }
-  .hero-right {
+  .main-right {
     margin-bottom: -50px;
   }
 }
@@ -122,21 +122,6 @@ h1 > span {
   height: 59px;
 }
 
-.menu-svg {
-  width: 30px;
-  height: 30px;
-}
-
-.nav-logos {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 130px;
-  height: 32px;
-  list-style-type: none;
-  margin: 0;
-}
-
 .nav-primary {
   display: flex;
   justify-content: center;
@@ -163,14 +148,22 @@ h1 > span {
   font-weight: 500;
 }
 
-.container-left {
+.nav-logos {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  width: 130px;
+  height: 32px;
+  list-style-type: none;
+  margin: 0;
 }
 
-.hero-container {
+.nav-svg {
+  width: 30px;
+  height: 30px;
+}
+
+.main-container {
   display: flex;
   justify-content: space-between;
   display: flex;
@@ -181,7 +174,7 @@ h1 > span {
   gap: 219px;
 }
 
-.hero-left {
+.main-left {
   margin-top: 45px;
   width: 636px;
   height: 297px;
