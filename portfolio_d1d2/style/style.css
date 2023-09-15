@@ -1,30 +1,69 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Lobster&family=Pacifico&display=swap");
-
 :root {
   --Solid-Heading: #42446e;
-  --inverse-background-color: black;
-  --inverse-font-color: white;
-  --inverse-subheader-font-color: lightgrey;
 }
-
 @media screen and (max-width: 992px) {
-  h1 {
-    font-size: 2.5rem;
+  body {
+    display: block;
+    max-width: 550px;
+    max-height: 550px;
   }
+  h1 {
+    width: 80%;
+    margin-top: -60px;
+  }
+  ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  li {
+    margin-bottom: 0;
+  }
+  .main-left {
+    max-width: 100%;
+  }
+  .main-right {
+    max-width: 100%;
+    margin-top: -800px;
+    margin-left: 600px;
+  }
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 15px 60px 15px;
+    height: 30px;
+  }
+  .nav-container {
+    padding: 20px 15px 20px 15px;
+  }
+
   .nav-primary {
-    display: none;
+    position: absolute;
+    top: 145px;
+    left: 0px;
+  }
+  .nav-logos {
+    list-style-type: none;
+    margin: 0;
   }
 }
-
-@media screen and (min-width: 992px) {
-  .portrait {
-    margin-right: auto;
-  }
-}
-
 @media screen and (max-width: 768px) {
+  body {
+    display: block;
+    max-width: 550px;
+    max-height: 550px;
+  }
   h1 {
-    font-size: 2rem;
+    width: 50%;
+    margin-top: -140px;
+  }
+  ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  li {
+    margin-bottom: 0;
   }
   .main-left {
     max-width: 100%;
@@ -33,13 +72,38 @@
     max-width: 100%;
   }
   .main-container {
+    display: flex;
+    flex-wrap: wrap;
     padding: 60px 15px 60px 15px;
+    height: 30px;
+    gap: 29px;
   }
   .nav-container {
     padding: 20px 15px 20px 15px;
   }
+  .projects {
+    position: absolute;
+    top: 15px;
+    left: 192px;
+  }
+  .contact {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+  }
+  .nav-primary {
+    position: absolute;
+    top: 145px;
+    left: 0px;
+  }
+  .nav-logos {
+    position: absolute;
+    top: 38px;
+    right: 100px;
+    list-style-type: none;
+    margin: 0;
+  }
 }
-
 @media screen and (max-width: 480px) {
   body {
     display: block;
@@ -67,20 +131,19 @@
   .main-container {
     display: flex;
     flex-wrap: wrap;
+    height: 30px;
+    gap: 29px;
   }
-
   .projects {
     position: absolute;
     top: 15px;
     left: 192px;
   }
-
   .contact {
     position: absolute;
     top: 15px;
     left: 40px;
   }
-
   .nav-primary {
     position: absolute;
     top: 115px;
@@ -93,18 +156,11 @@
     list-style-type: none;
     margin: 0;
   }
-
-  .main-container {
-    height: 30px;
-    gap: 29px;
-  }
 }
-
 * {
   padding: 0px;
   margin: 0px;
 }
-
 body {
   display: flex;
   flex-direction: column;
@@ -114,24 +170,20 @@ body {
   width: 1204px;
   margin-left: 180px;
 }
-
 main {
   margin-left: 40px;
   margin-top: 243px;
   width: 1204px;
   height: 350px;
 }
-
 ul {
   padding-left: clamp(40px, 5vw, 50px);
   margin-bottom: 1.4rem;
   margin-top: 1rem;
 }
-
 li {
   margin-bottom: 1.3rem;
 }
-
 h1 {
   font-family: "Poppins", sans-serif;
   color: var(--Solid-Heading);
@@ -141,7 +193,6 @@ h1 {
   line-height: 70px; /* 120.69% */
   letter-spacing: -1px;
 }
-
 h1 > span {
   background: linear-gradient(90deg, #13b0f5 30%, #a270ff 100%);
   background-clip: text;
@@ -153,24 +204,20 @@ h1 > span {
   line-height: 70px;
   letter-spacing: -1px;
 }
-
 .nav-container {
   display: flex;
   justify-content: space-between;
   width: 1193px;
   height: 59px;
 }
-
 .nav-logo {
   height: 59px;
 }
-
 .nav-primary {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .nav-links {
   display: flex;
   justify-content: space-between;
@@ -181,7 +228,6 @@ h1 > span {
   list-style-type: none;
   margin: 0;
 }
-
 .nav-link {
   color: #666666;
   font-size: 20px;
@@ -190,7 +236,6 @@ h1 > span {
   font-family: "DM Sans", sans-serif;
   font-weight: 500;
 }
-
 .nav-logos {
   display: flex;
   justify-content: space-between;
@@ -200,12 +245,10 @@ h1 > span {
   list-style-type: none;
   margin: 0;
 }
-
 .nav-svg {
   width: 30px;
   height: 30px;
 }
-
 .main-container {
   display: flex;
   justify-content: space-between;
@@ -215,13 +258,11 @@ h1 > span {
   align-items: center;
   gap: 219px;
 }
-
 .main-left {
   margin-top: 45px;
   width: 636px;
   height: 297px;
 }
-
 .portrait {
   width: 350px;
   height: 350px;
