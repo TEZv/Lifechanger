@@ -3,4 +3,8 @@
 --> That's why I named the folder portfolio_d1d2.
 
 Figma template for my practice:
-https://www.figma.com/file/PfqtVEyf19WDyjtA7P9hN6/Developer-Portfolio-Design-(Community)-(Copy)?type=design&node-id=0-1&mode=design&t=d7izvFEFt40ILTez-0
+https://www.figma.com/file/IKo7HvgaauT3SA3xrfsLDa/Developer-Portfolio-Design-(Community)?node-id=21%3A13&mode=dev
+
+The Website of the current task:
+https://lifechanger-portfolio.netlify.app/
+[Netlify]
