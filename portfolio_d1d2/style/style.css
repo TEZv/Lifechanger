@@ -181,7 +181,6 @@ body {
 main {
   margin-left: 40px;
   margin-top: 243px;
-  
 }
 ul {
   padding-left: clamp(40px, 5vw, 50px);
@@ -233,7 +232,7 @@ h4 {
   font-style: normal;
   font-weight: 400;
   line-height: 28px; /* 140% */
-  letter-spacing: 1px
+  letter-spacing: 1px;
 }
 .nav-container {
   display: flex;
@@ -316,7 +315,7 @@ h4 {
 .experience-container,
 .edu-container {
   margin-left: 27px;
-  margin-top: -30px
+  margin-top: -30px;
 }
 
 .div1-experience {
@@ -351,7 +350,7 @@ h4 {
 .h4-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px
+  margin-top: 30px;
 }
 .p-about {
   color: var(--dark-content);
@@ -385,7 +384,12 @@ h4 {
 .edu-container {
   padding-bottom: 300px;
 }
-
+.div-footer-container {
+}
+.footer-primary {
+  display: flex;
+  justify-content: space-between;
+}
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -398,7 +402,67 @@ h4 {
   width: 97px;
   height: 59px;
   margin-top: 58px;
+  margin-left: 26px;
 }
-.footer-container > svg {
-  
+footer > svg {
+  margin-top: 26px;
+  margin-left: 20px;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 439px;
+  height: 26px;
+  list-style-type: none;
+  margin: 0;
+  padding-right: 40px;
+}
+.phone {
+  color: var(--Solid-Heading, #42446e);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
+.mail {
+  color: var(--Solid-Heading, #42446e);
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
+.foot-svg {
+  color: var(--Solid-Heading, #42446E);
+}
+.footer-link {
+  color: var(--grey);
+  font-size: 20px;
+
+  margin-left: -16px;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+}
+.footer-p {
+  color: var(--dark-content, #666);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 144.444% */
+}
+p > span {
+  background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
 }
