@@ -181,8 +181,7 @@ body {
 main {
   margin-left: 40px;
   margin-top: 243px;
-  width: 1204px;
-  height: 350px;
+  
 }
 ul {
   padding-left: clamp(40px, 5vw, 50px);
@@ -243,6 +242,7 @@ h4 {
   height: 59px;
 }
 .nav-logo {
+  width: 97px;
   height: 59px;
 }
 .nav-primary {
@@ -384,4 +384,21 @@ h4 {
 }
 .edu-container {
   padding-bottom: 300px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1218px;
+  height: 192px;
+  margin-top: 203px;
+  margin-bottom: -55px;
+}
+.footer-logo {
+  width: 97px;
+  height: 59px;
+  margin-top: 58px;
+}
+.footer-container > svg {
+  
 }
