@@ -1,5 +1,5 @@
 # Lifechanger
-## My task was: #TODO the Desktop 1/ Desktop 2
+## My task was: #TODO the <header></header>, <footer></footer> and two sections: Desktop 1/ Desktop 2
 --> That's why I named the folder portfolio_d1d2.
 
 Figma template for my practice:
@@ -9,3 +9,6 @@ The Website of the current task:
 https://lifechanger-portfolio.netlify.app/
 <br />
 --> Netlify
+
+Deadline: 15.09.23
+([x]Done all requirements by 17.09.23)
