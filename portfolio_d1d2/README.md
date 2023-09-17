@@ -1,5 +1,5 @@
 # Lifechanger
-## My task was: #TODO the <code>< header ></code>, <code>< footer ></code> and two sections: <code>Desktop 1/ Desktop 2</code>
+## My task was: #TODO the `<header>`, `<footer>` and two sections: `Desktop 1/ Desktop 2`
 --> That's why I named the folder portfolio_d1d2.
 
 Figma template for my practice:
