@@ -10,5 +10,5 @@ https://lifechanger-portfolio.netlify.app/
 <br />
 --> Netlify
 
-Deadline: 15.09.23
-[x] Done all requirements by 17.09.23
+Deadline: 15.09.23 <br />
+- [x] Done all requirements by 17.09.23
