@@ -8,7 +8,7 @@
 ├── portfolio_d3d4d5<br>
 └── README.md<br>
 The d1d2 website: https://lifechanger-portfolio-task1.netlify.app/
-(change the link)
+
 ## **#Task 2**
 ### `Duration`: 19.09.23-29.09.23
 .<br>
