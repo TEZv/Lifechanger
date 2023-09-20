@@ -1,6 +1,7 @@
 # Lifechanger
 ## My task was: <br>
-#REDO the `<header>`, `<footer>` and two sections: `Desktop 1/ Desktop 2` from #Task1
+#REDO the `<header>`, `<footer>` and two sections: `Desktop 1/ Desktop 2` from the #Task1
+_The mentor`s assessment of the #Task1_: https://www.loom.com/share/df60e8a2e0e848bbadd25283d8f3ea53
 
 ## My task was: <br>
 #TODO three sections: `Desktop 3/ Desktop 4/ Desktop 5`
@@ -21,6 +22,4 @@ https://lifechanger-portfolio.netlify.app/
 - [x] Done all requirements by 29.09.23
 
 ## Assesment
-_The mentor`s assessment of the #Task1_: https://www.loom.com/share/df60e8a2e0e848bbadd25283d8f3ea53
-
 _The mentor`s assessment of the #Task2_:
