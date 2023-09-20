@@ -1,6 +1,6 @@
 # Lifechanger
 ## My task was: <br>
-#REDO <br> the `<header>`, `<footer>` and two sections: `Desktop 1/ Desktop 2` from #Task1
+#REDO the `<header>`, `<footer>` and two sections: `Desktop 1/ Desktop 2` from #Task1
 
 ## My task was: <br>
 #TODO three sections: `Desktop 3/ Desktop 4/ Desktop 5`
