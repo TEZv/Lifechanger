@@ -12,7 +12,7 @@ https://www.figma.com/file/IKo7HvgaauT3SA3xrfsLDa/Developer-Portfolio-Design-(Co
 
 ## The Website 
 Of the current task:
-https://lifechanger-portfolio.netlify.app/
+https://lifechanger-portfolio.netlify-task2.app/
 <br />
 --> Netlify
 
