@@ -1,5 +1,5 @@
 # Lifechanger
-//My <b>Front-End</b> projects from the <b>LifeChanger</b>//
+//My <b>Front-End</b> projects from the <b>Lifechanger</b>//
 
 ## **#Task 1**
 ### `Duration`: 1.09.23-15.09.23
