@@ -1,6 +1,6 @@
 # Lifechanger
 ## My task was: <br>
-#TODO the `<header>`, `<footer>` and two sections: <br /> `Desktop 1/ Desktop 2`
+- [x] #TODO the `<header>`, `<footer>` and two sections: <br /> `Desktop 1/ Desktop 2`
 --> That's why I named the folder portfolio_d1d2.
 
 ## Figma 
