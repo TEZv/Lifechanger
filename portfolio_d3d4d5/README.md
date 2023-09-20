@@ -1,9 +1,9 @@
 # Lifechanger
-## My task was: #REDO the `<header>`, `<footer>` and two sections: <br /> `Desktop 1/ Desktop 2`
+## My task was: #REDO <br> the `<header>`, `<footer>` and two sections: `Desktop 1/ Desktop 2`
 _The mentor`s assessment #Task1:_
 https://www.loom.com/share/df60e8a2e0e848bbadd25283d8f3ea53
 
-## My task was: #TODO three sections: <br /> `Desktop 3/ Desktop 4/ Desktop 5`
+## My task was: #TODO three sections: `Desktop 3/ Desktop 4/ Desktop 5`
 --> That's why I named the folder portfolio_d3d4d5.
 
 Figma template for my practice the same as from the #Task1:
