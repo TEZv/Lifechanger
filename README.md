@@ -1,7 +1,7 @@
 # Lifechanger
-My <b>Front-End</b> projects from the <b>LifeChanger</b>
+^My <b>Front-End</b> projects from the <b>LifeChanger</b>^
 
-## **Task 1**
+## **#Task 1**
 ### `Duration`: 1.09.23-15.09.23
 .<br>
 ├── _portfolio_d1d2_         # Task 1<br>
@@ -9,7 +9,7 @@ My <b>Front-End</b> projects from the <b>LifeChanger</b>
 └── README.md<br>
 The d1d2 website: https://lifechanger-portfolio_task1.netlify.app/
 (change the link)
-## **Task 2**
+## **#Task 2**
 ### `Duration`: 19.09.23-29.09.23
 .<br>
 ├── portfolio_d1d2          
