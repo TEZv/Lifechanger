@@ -68,6 +68,7 @@
 * {
   padding: 0px;
   margin: 0px;
+  /* box-sizing: border-box; */
 }
 body {
   display: flex;
@@ -136,12 +137,15 @@ h2 {
   font-weight: 700;
   line-height: 52px;
   letter-spacing: -0.4px;
-  width: 474.667px;
+  width: 474px;
   padding: 38px 0 38px 25px;
 }
 h2.h2-about {
   width: 202px;
   height: 52px;
+}
+h2.h2-tech {
+  padding: 250px 0 0 10px;
 }
 h4 {
   color: var(--dark-content);
@@ -290,6 +294,24 @@ footer > svg {
 .p-tech {
   text-align: center;
   font-size: 20px;
+  margin: 16px 0 0 -118px;
+}
+
+.stack-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 100px;
+  width: 1225px;
+  height: 310px;
+  margin-left: 16px;
+  margin-top: 130px;
+}
+
+.stack-container img {
+  width: 100px;
+  height: 100px;
 }
 
 .span-gap1 {
