@@ -78,6 +78,7 @@ body {
   padding: 81px 214px 291px 182px;
   width: 1204px;
   margin-left: 180px;
+  font-family: Poppins;
   background-color: var(--white);
 }
 main {
@@ -92,7 +93,6 @@ p span:first-child {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -123,7 +123,6 @@ h1 > span {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: Poppins;
   font-style: normal;
   font-weight: 700;
   line-height: 70px;
@@ -131,7 +130,6 @@ h1 > span {
 }
 h2 {
   color: var(--Solid-Heading);
-  font-family: Poppins;
   font-size: 42px;
   font-style: normal;
   font-weight: 700;
@@ -150,9 +148,17 @@ h2.h2-tech {
 h2.h2-projects {
   padding: 260px 0 0 20px;
 }
+h3 {
+  color: #000;
+text-align: center;
+
+font-size: 28px;
+
+font-weight: 500;
+line-height: 26px; /* 92.857% */
+}
 h4 {
   color: var(--dark-content);
-  font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -257,7 +263,6 @@ footer > svg {
   gap: 20px;
 }
 .button-work {
-  font-family: Poppins;
   font-weight: 600;
   font-size: 9px;
   font-style: normal;
@@ -270,7 +275,6 @@ footer > svg {
 }
 .p-work {
   color: var(--light-Content);
-  font-family: Poppins;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -284,7 +288,6 @@ footer > svg {
 }
 .p-about {
   color: var(--dark-content);
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -332,7 +335,21 @@ footer > svg {
   box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
   width: 375px;
   height: 570px;
-  margin-top: 34px;
+}
+.div-projs-container img {
+  width: 375px;
+height: 260px;
+margin-bottom: 92px;
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.links-container img {
+  width: 20px;
+height: 20px;
 }
 .span-gap1 {
   margin-left: 32px;
@@ -426,7 +443,6 @@ footer > svg {
 .footer-p {
   color: var(--dark-content);
   text-align: center;
-  font-family: Poppins;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
