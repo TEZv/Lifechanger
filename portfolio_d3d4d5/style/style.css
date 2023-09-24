@@ -296,7 +296,6 @@ footer > svg {
   font-size: 20px;
   margin: 16px 0 0 -118px;
 }
-
 .stack-container {
   display: flex;
   align-items: center;
@@ -308,12 +307,10 @@ footer > svg {
   margin-left: 16px;
   margin-top: 130px;
 }
-
 .stack-container img {
   width: 100px;
   height: 100px;
 }
-
 .span-gap1 {
   margin-left: 32px;
 }
@@ -372,7 +369,6 @@ footer > svg {
   list-style-type: none;
   margin: 0;
 }
-
 .phone {
   color: var(--Solid-Heading);
   font-family: DM Sans;
@@ -390,7 +386,6 @@ footer > svg {
   font-weight: 400;
   line-height: 26px;
 }
-
 .foot-svg {
   color: var(--Solid-Heading);
 }
