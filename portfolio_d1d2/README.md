@@ -3,7 +3,7 @@
 - [x] #TODO the `<header>`, `<footer>` and two sections: <br /> `Desktop 1/ Desktop 2`
 --> That's why I named the folder portfolio_d1d2.
 
-- [-] #TODO the adaptive view for the mobile -> @media{}
+- [-] #TODO the adaptive view for the mobile/tablet -> @media{}
 
 ## Figma 
 The template for my practice:
