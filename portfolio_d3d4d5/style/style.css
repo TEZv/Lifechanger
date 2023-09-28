@@ -9,78 +9,18 @@
   --light-Content: #a7a7a7;
   --Solid-Heading: #42446e;
 }
-@media screen and (max-width: 992px) {
-  body {
-    display: block;
-    max-width: 70%;
-    max-height: 100%;
-  }
-  h1 {
-    width: 80%;
-    margin-top: -60px;
-  }
-  ul {
-    padding-left: 0;
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-  li {
-    margin-bottom: 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  body {
-    display: block;
-    max-width: 80%;
-    max-height: 100%;
-  }
-  h1 {
-    width: 50%;
-    margin-top: -140px;
-  }
-  ul {
-    padding-left: 0;
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-  li {
-    margin-bottom: 0;
-  }
-}
-@media screen and (max-width: 480px) {
-  body {
-    display: block;
-    max-width: 120%;
-    max-height: 100%;
-  }
-  h1 {
-    width: 50%;
-    margin-top: -140px;
-  }
-  ul {
-    padding-left: 0;
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-  li {
-    margin-bottom: 0;
-  }
-}
 * {
   padding: 0px;
   margin: 0px;
-  /* box-sizing: border-box; */
 }
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 81px 214px 291px 182px;
-  width: 1204px;
-  margin-left: 180px;
   font-family: Poppins;
   background-color: var(--white);
+  padding: 81px 0 291px 0;
 }
 main {
   margin-left: 40px;
@@ -92,7 +32,10 @@ p span:first-child {
     linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%)
   );
   background-clip: text;
-  background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
+  background: var(
+    --Gradient-Heading,
+    linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%)
+  );
   -webkit-background-clip: text;
   font-size: 18px;
   font-style: normal;
@@ -150,29 +93,32 @@ h2.h2-projects {
   padding: 260px 0 0 20px;
 }
 h2.h2-above-footer {
-  color: var(--colors-heading, #1E0E62);
-text-align: center;
-font-family: DM Sans;
-font-size: 58px;
-font-style: normal;
-font-weight: 700;
-line-height: 70px;
-letter-spacing: -1px;
-margin-bottom: -60px;
+  color: var(--colors-heading, #1e0e62);
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+  margin-bottom: -60px;
 }
 h2.h2-under-h2 {
   text-align: center;
-font-family: DM Sans;
-font-size: 58px;
-font-style: normal;
-font-weight: 700;
-line-height: 70px; 
-letter-spacing: -1px;
-margin-left: 180px;
-background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  font-family: DM Sans;
+  font-size: 58px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: -1px;
+  margin-left: 180px;
+  background: var(
+    --Gradient-Heading,
+    linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .h2-above-footer {
   width: 890px;
@@ -180,11 +126,11 @@ background-clip: text;
 }
 h3 {
   color: #000;
-font-size: 28px;
-font-style: normal;
-font-weight: 500;
-line-height: 26px; 
-margin-left: 4px;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-left: 4px;
 }
 h4 {
   color: var(--dark-content);
@@ -280,7 +226,7 @@ footer > svg {
   align-items: flex-start;
 }
 .work-container {
-  width: 704px;
+  /* width: 704px; */
   height: 75px;
 }
 .experience-container,
@@ -363,22 +309,22 @@ footer > svg {
 }
 .div-projects p {
   color: var(--dark-content, #666);
-font-family: Poppins;
-font-size: 18px;
-font-style: normal;
-font-weight: 300;
-line-height: 26px;
-margin-left: 4px;
-margin-top: -4px;
-margin-bottom: -2px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
+  margin-left: 4px;
+  margin-top: -4px;
+  margin-bottom: -2px;
 }
 .div-projects p ~ p {
-  color: var(--Solid-Heading, #42446E);
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 300;
-line-height: 26px;
+  color: var(--Solid-Heading, #42446e);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
 }
 .projects-center {
   display: flex;
@@ -390,12 +336,12 @@ line-height: 26px;
   margin-left: 28px;
 }
 .div-projects p ~ p span {
-color: var(--Solid-Heading, #42446E);
-font-family: Poppins;
-font-size: 14px;
-font-style: normal;
-font-weight: 300;
-line-height: 26px;
+  color: var(--Solid-Heading, #42446e);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px;
 }
 .div-projs-container {
   display: flex;
@@ -410,16 +356,16 @@ line-height: 26px;
 }
 .div-projs-container img {
   width: 375px;
-height: 260px;
-/* margin-top: -42px; */
-margin-top: -22px;
+  height: 260px;
+  /* margin-top: -42px; */
+  margin-top: -22px;
 }
 
 .div-projs-container p ~ p span {
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
-font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 16px;
 }
 
 .links-container,
@@ -432,16 +378,16 @@ font-size: 16px;
 }
 .in-links-container a {
   color: var(--black);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
-text-decoration-line: underline;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  text-decoration-line: underline;
 }
 .links-container img {
   margin-top: 1px;
   width: 20px;
-height: 20px;
+  height: 20px;
 }
 .span-gap1 {
   margin-left: 32px;
@@ -543,4 +489,61 @@ height: 20px;
 }
 .footer-p span:first-child {
   -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width: 992px) {
+  body {
+    display: block;
+    max-width: 70%;
+    max-height: 100%;
+  }
+  h1 {
+    width: 80%;
+    margin-top: -60px;
+  }
+  ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  li {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    display: block;
+    max-width: 80%;
+    max-height: 100%;
+  }
+  h1 {
+    width: 50%;
+    margin-top: -140px;
+  }
+  ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  li {
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    display: block;
+    max-width: 120%;
+    max-height: 100%;
+  }
+  h1 {
+    width: 50%;
+    margin-top: -140px;
+  }
+  ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  li {
+    margin-bottom: 0;
+  }
 }
