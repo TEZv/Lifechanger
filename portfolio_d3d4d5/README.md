@@ -1,10 +1,9 @@
 # Lifechanger
-## My tasks were: <br>
+## My tasks were: 
 - [x] #REDO the `<header>`, `<footer>` and two sections: `Desktop 1/ Desktop 2` from the #Task1. <br>
 
 - [x] #TODO three sections: `Desktop 3/ Desktop 4/ Desktop 5`
 --> That's why I named the folder portfolio_d3d4d5.
-
 - [x] #TODO the adaptive view for the mobile/tablet -> @media{}
 
 ## Figma 
