@@ -6,6 +6,8 @@ _The mentor`s assessment of the #Task1_: https://www.loom.com/share/df60e8a2e0e8
 - [ ] #TODO three sections: `Desktop 3/ Desktop 4/ Desktop 5`
 --> That's why I named the folder portfolio_d3d4d5.
 
+- [x] #TODO the adaptive view for the mobile -> @media{}
+
 ## Figma 
 The template for my practice the same as from the #Task1:
 https://www.figma.com/file/IKo7HvgaauT3SA3xrfsLDa/Developer-Portfolio-Design-(Community)?node-id=21%3A13&mode=dev
