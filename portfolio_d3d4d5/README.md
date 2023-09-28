@@ -21,6 +21,6 @@ https://lifechanger-portfolio.netlify-task2.app/
 29.09.23 <br />
 - [x] Done all requirements by 28.09.23
 
-## Assesment
+## Assessment
 _The mentor`s assessment of the #Task1_: https://www.loom.com/share/df60e8a2e0e848bbadd25283d8f3ea53
 _The mentor`s assessment of the #Task2_:
