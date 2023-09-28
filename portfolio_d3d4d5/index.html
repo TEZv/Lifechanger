@@ -34,9 +34,9 @@
   <body>
     <header>
       <nav>
-        <div class="nav-container">
+        <div class="nav-container" id="home">
           <div class="nav-logo">
-            <a href="index.html">
+            <a href="#">
               <img src="./img/logo.svg" alt="007 pavanmg" />
             </a>
           </div>
@@ -45,20 +45,20 @@
             <div>
               <ul class="nav-links">
                 <li>
-                  <a href="#home" class="nav-link">Home</a>
+                  <a href="#" class="nav-link">Home</a>
                 </li>
                 <li>
                   <a href="#about" class="nav-link">About</a>
                 </li>
                 <li>
-                  <a href="#" class="nav-link">Tech Stack</a>
+                  <a href="#stack" class="nav-link">Tech Stack</a>
                 </li>
                 <li>
-                  <a href="#" class="nav-link projects">Projects</a>
+                  <a href="#projects" class="nav-link projects">Projects</a>
                 </li>
 
                 <li>
-                  <a href="#" class="nav-link contact">Contact</a>
+                  <a href="#contact" class="nav-link contact">Contact</a>
                 </li>
               </ul>
             </div>
@@ -99,7 +99,7 @@
     <main>
       <section>
         <div class="main-container">
-          <div class="main-left" id="home">
+          <div class="main-left">
             <h1>
               Hi 👋,<br />
               My name is <br />
@@ -148,7 +148,7 @@
                           fill="#A7A7A7"
                         />
                       </svg>
-                      Dr. Rajkumar’s Learning App
+                      Dr. Rajkumar's Learning App
                     </p>
                     <p class="p-work">
                       <svg
@@ -420,7 +420,7 @@
       </div>
 
       <section>
-        <h2 class="h2-tech">My Tech Stack</h2>
+        <h2 class="h2-tech" id="stack">My Tech Stack</h2>
         <p class="p-about p-tech">
           Technologies I've been working with recently
         </p>
@@ -441,9 +441,9 @@
       </section>
 
       <section>
-        <h2 class="h2-projects">Projects</h2>
-        <p class="p-about p-projects">Things I've built so far</p>
-        <div class="stack-container div-projects">
+        <h2 class="h2-projects" >Projects</h2>
+        <p class="p-about p-projects" id="projects">Things I've built so far</p>
+        <div class="stack-container div-projects" >
           <div class="div-projs-container">
             <img src="./img/desktop3/project1.svg" alt="Project 1 Photo" />
             <div class="projects-center">
@@ -602,7 +602,7 @@
         </div>
       </section>
 
-      <section class="above-footer">
+      <section class="above-footer" id="contact">
         <h2 class="h2-above-footer">For any questions please mail us:</h2>
         <h2 class="h2-under-h2">hi@pavanmg.in</h2>
       </section>
@@ -721,14 +721,14 @@
                 <a href="#about" class="footer-link">About</a>
               </li>
               <li>
-                <a href="" class="footer-link">Technologies</a>
+                <a href="#stack" class="footer-link">Technologies</a>
               </li>
               <li>
-                <a href="" class="footer-link projects">Projects</a>
+                <a href="#projects" class="footer-link projects">Projects</a>
               </li>
 
               <li>
-                <a href="" class="footer-link contact">Contact</a>
+                <a href="#contact" class="footer-link contact">Contact</a>
               </li>
             </ul>
           </div>
