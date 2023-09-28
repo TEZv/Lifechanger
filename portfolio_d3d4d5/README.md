@@ -20,7 +20,7 @@ https://lifechanger-portfolio.netlify-task2.app/
 
 ## Deadline:
 29.09.23 <br />
-- [x] Done all requirements by 29.09.23
+- [x] Done all requirements by 28.09.23
 
 ## Assesment
 _The mentor`s assessment of the #Task2_:
