@@ -1,7 +1,6 @@
 # Lifechanger
 ## My tasks were: <br>
 - [x] #REDO the `<header>`, `<footer>` and two sections: `Desktop 1/ Desktop 2` from the #Task1. <br>
-_The mentor`s assessment of the #Task1_: https://www.loom.com/share/df60e8a2e0e848bbadd25283d8f3ea53
 
 - [x] #TODO three sections: `Desktop 3/ Desktop 4/ Desktop 5`
 --> That's why I named the folder portfolio_d3d4d5.
@@ -23,4 +22,5 @@ https://lifechanger-portfolio.netlify-task2.app/
 - [x] Done all requirements by 28.09.23
 
 ## Assesment
+_The mentor`s assessment of the #Task1_: https://www.loom.com/share/df60e8a2e0e848bbadd25283d8f3ea53
 _The mentor`s assessment of the #Task2_:
