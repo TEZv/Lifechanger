@@ -518,7 +518,6 @@ footer > svg {
   }
   .nav-links {
     width: 400px;
-    
   }
   img[src="./img/logo.svg"] {
     width: 50px;
@@ -576,7 +575,7 @@ footer > svg {
   }
   .edu-container {
     position: absolute;
-    top: 1830px
+    top: 1830px;
   }
   .div2-experience,
   .p-work {
@@ -584,7 +583,7 @@ footer > svg {
     margin-top: 150px;
   }
   .edu-line {
-    width: 10px
+    width: 10px;
   }
   .line {
     height: 2px;
@@ -626,7 +625,6 @@ footer > svg {
   }
   .nav-links {
     width: 400px;
-    
   }
   img[src="./img/logo.svg"] {
     width: 50px;
@@ -776,7 +774,7 @@ footer > svg {
 @media screen and (max-width: 992px) {
   .nav-container {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     left: 40px;
     width: 843px;
     height: 59px;
@@ -788,7 +786,7 @@ footer > svg {
   }
   .nav-container {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     gap: 1px;
     width: 10%;
     height: 59px;
@@ -801,7 +799,7 @@ footer > svg {
   .nav-link.contact {
     position: absolute;
     top: 40px;
-    left: 146px
+    left: 146px;
   }
   .stack-container {
     gap: 50px;
@@ -809,9 +807,9 @@ footer > svg {
     height: 310px;
     margin-top: 10px;
   }
-  
+
   .div-projects {
-    height: 3700px
+    height: 3700px;
   }
   .h2-above-footer {
     margin-left: -100px;
@@ -823,15 +821,15 @@ footer > svg {
     width: 600px;
   }
   .footer-container {
-    width: 200px
+    width: 200px;
   }
   .footer-p {
     position: absolute;
     margin-top: 70px;
-    left: 140px
+    left: 140px;
   }
   .footer2-container {
-    margin-left: 120px
+    margin-left: 120px;
   }
 }
 @media screen and (min-width: 550px) and (max-width: 767px) {
@@ -857,12 +855,12 @@ footer > svg {
   .nav-link.contact {
     position: absolute;
     top: 40px;
-    left: 146px
+    left: 146px;
   }
   .nav-link.projects {
     position: absolute;
     top: 40px;
-    left: 266px
+    left: 266px;
   }
   .nav-link {
     font-size: 1em;
