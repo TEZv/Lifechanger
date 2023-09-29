@@ -34,7 +34,7 @@
   <body>
     <header>
       <nav>
-        <div class="nav-container" id="home">
+        <div class="nav-container">
           <div class="nav-logo">
             <a href="#">
               <img src="./img/logo.svg" alt="007 pavanmg" />
@@ -48,10 +48,10 @@
                   <a href="#" class="nav-link">Home</a>
                 </li>
                 <li>
-                  <a href="#about" class="nav-link">About</a>
+                  <a href="#about" class="nav-link about">About</a>
                 </li>
                 <li>
-                  <a href="#stack" class="nav-link">Tech Stack</a>
+                  <a href="#stack" class="nav-link stack">Tech Stack</a>
                 </li>
                 <li>
                   <a href="#projects" class="nav-link projects">Projects</a>
@@ -63,13 +63,13 @@
               </ul>
             </div>
             <div>
-              <ul class="nav-logos">
+              <ul class="nav-logos absolute">
                 <li>
                   <a href="https://github.com/TEZv"
                     ><img
                       src="./img/github.svg"
                       alt="The logo of the Github website"
-                      class="nav-svg"
+                      class="nav-svg small"
                   /></a>
                 </li>
                 <li>
@@ -77,7 +77,7 @@
                     ><img
                       src="./img/x.svg"
                       alt="The logo of the X (Twitter) social media"
-                      class="nav-svg"
+                      class="nav-svg small"
                   /></a>
                 </li>
                 <li>
@@ -86,7 +86,7 @@
                     ><img
                       src="./img/linkedin.svg"
                       alt="The logo of the LinkedIn website"
-                      class="nav-svg"
+                      class="nav-svg small"
                   /></a>
                 </li>
               </ul>
@@ -94,13 +94,14 @@
           </div>
         </div>
       </nav>
+      <div id="home"></div>
     </header>
 
-    <main>
+    <main >
       <section>
         <div class="main-container">
           <div class="main-left">
-            <h1>
+            <h1 >
               Hi 👋,<br />
               My name is <br />
               <span>Pavan MG</span><br />
@@ -111,11 +112,12 @@
             <img src="./img/pavanmg.jpg" class="portrait" alt="PAVAN MG" />
           </div>
         </div>
+        <div id="about"></div>
       </section>
 
       <div class="section-container">
         <section>
-          <h2 class="h2-about" id="about">About Me</h2>
+          <h2 class="h2-about">About Me</h2>
           <p class="p-about">
             The Generator App is an online tool that helps you to export
             ready-made templates ready to work as your future website. It helps
@@ -421,7 +423,7 @@
 
       <section>
         <h2 class="h2-tech" id="stack">My Tech Stack</h2>
-        <p class="p-about p-tech">
+        <p class="p-about p-tech" >
           Technologies I've been working with recently
         </p>
         <div class="stack-container">
@@ -441,9 +443,9 @@
       </section>
 
       <section>
-        <h2 class="h2-projects" >Projects</h2>
-        <p class="p-about p-projects" id="projects">Things I've built so far</p>
-        <div class="stack-container div-projects" >
+        <h2 class="h2-projects" id="projects">Projects</h2>
+        <p class="p-about p-projects">Things I've built so far</p>
+        <div class="stack-container div-projects">
           <div class="div-projs-container">
             <img src="./img/desktop3/project1.svg" alt="Project 1 Photo" />
             <div class="projects-center">
