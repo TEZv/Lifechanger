@@ -11,6 +11,8 @@
   --green: #018c0f;
   --light-Content: #a7a7a7;
   --Solid-Heading: #42446e;
+  --solid-heading: #42446e;
+  --dark-heading: #666;
 }
 * {
   padding: 0px;
@@ -86,7 +88,7 @@ h1 > span {
   letter-spacing: -1px;
 }
 h2 {
-  color: var(--Solid-Heading);
+  color: var(--solid-heading);
   font-size: 42px;
   font-style: normal;
   font-weight: 700;
@@ -144,7 +146,7 @@ h3 {
   margin-left: 4px;
 }
 h4 {
-  color: var(--dark-content);
+  color: var(--dark-heading);
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -157,6 +159,7 @@ section.above-footer {
   margin-left: 130px;
   margin-bottom: 46px;
 }
+
 footer > svg {
   margin-top: 26px;
   margin-left: 40px;
@@ -551,13 +554,13 @@ input:checked + .slider:before {
   --secondary-color: #f2af29;
   --font-color: #818cab;
   --white: #191919;
+  --green: rgb(6, 21, 5);
+  --light-white: rgba(109, 235, 105, 0.81);
   --dark-content: #a7a7a7;
+  --light-Content: #D9D9D9;
   --Solid-Heading: #D9D9D9;
-}
-[data-theme="light"] {
-  --wht: #fff;
-  --gray: #666;
-  --solid-heading: #42446e;
+  --solid-heading: #CCC;
+  --dark-heading: rgb(100, 107, 244);
 }
 body,
 header,
@@ -568,17 +571,29 @@ header,
   color: var(--dark-content);
   transition: 500ms fill ease;
 }
-svg path {
+a svg path {
   fill: var(--dark-content);
 }
 h1 {
   color: var(--Solid-Heading);
 }
+h2 {
+  color: var(--solid-heading);
+}
+h4 {
+  color: var(--dark-heading);
+}
+.button-work {
+  color: var(--green);
+  background-color: var(--light-white);
+}
 .portrait {
   border-radius: 230px;
 background: lightgray 50% / cover no-repeat;
 }
-
+.p-work {
+  color: var(--light-Content);
+}
 
 *:after,
 *:before {
