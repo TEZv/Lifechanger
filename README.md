@@ -16,3 +16,12 @@ The d1d2 website: https://lifechanger-portfolio-task1.netlify.app/
 ├── _portfolio_d3d4d5_ ----> _#Task 2_ <br>
 └── README.md <br>
 The d3d4d5 website: https://lifechanger-portfolio-task2.netlify.app/
+
+## **#Task 3**
+### `Duration`: 05.10.23-13.10.23
+.<br>
+├── portfolio_d1d2          
+├── portfolio_d3d4d5
+├── _portfolio_darkmode_----> _#Task 3_ <br>
+└── README.md <br>
+The d3d4d5 website: https://lifechanger-portfolio-task3.netlify.app/
