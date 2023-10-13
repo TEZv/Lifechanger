@@ -16,6 +16,6 @@ https://lifechanger-portfolio-task1.netlify.app/
 15.09.23 <br />
 - [x] Done 70% of all requirements by 17.09.23
 ## Assessment
-_The mentor`s assessment of the #Task1_: https://www.loom.com/share/df60e8a2e0e848bbadd25283d8f3ea53
+_The mentor`s assessment of the #Task1_: **Here Must Be the Video but it was deleted**
 
 _The Score_: 40|100
