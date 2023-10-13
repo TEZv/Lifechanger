@@ -18,7 +18,7 @@ https://lifechanger-portfolio-task3.netlify.app/
 ## Deadline
 13.10.23 <br />
 
-- [x] Done all requirements by 13.10.23
+- [x] Done 70% of all requirements by 13.10.23
 ## Assessment
 _The mentor's assessment of the #Task1_: * **Here Must Be the Video but it was deleted** *<br>
 _The Score_: 40|100 <br>
