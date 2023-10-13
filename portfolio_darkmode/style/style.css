@@ -721,7 +721,7 @@ input:checked + .slider:before {
   .nav-container {
     position: absolute;
     left: 20px;
- 
+
     height: 59px;
   }
   .nav-logos.absolute {
@@ -794,11 +794,11 @@ input:checked + .slider:before {
     margin-left: 0;
   }
   .theme-switch {
-  display: inline-block;
-  height: 28px;
-  position: relative;
-  width: 58px;
-} 
+    display: inline-block;
+    height: 28px;
+    position: relative;
+    width: 58px;
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 549px) {
@@ -875,7 +875,7 @@ input:checked + .slider:before {
     font-size: 1em;
   }
   .nav-primary {
-    gap: 0
+    gap: 0;
   }
   .theme-switch-wrapper {
     margin-top: 150px;
@@ -918,7 +918,7 @@ input:checked + .slider:before {
     margin-top: 1300px;
     margin-left: 450px;
     font-size: 10px;
-    }
+  }
   .h2-above-footer {
     width: 200px;
     font-size: 10px;
@@ -928,7 +928,7 @@ input:checked + .slider:before {
     width: 200px;
     font-size: 10px;
   }
-.footer-primary {
+  .footer-primary {
     margin-left: -100px;
   }
   .footer-links {
@@ -938,9 +938,9 @@ input:checked + .slider:before {
     margin-top: 120px;
   }
   .experience-container,
-.edu-container {
-  width: 400px
-}
+  .edu-container {
+    width: 400px;
+  }
 }
 @media screen and (min-width: 550px) and (max-width: 875px) {
   body {
@@ -972,23 +972,23 @@ input:checked + .slider:before {
     margin-left: 0;
   }
   .theme-switch {
-  display: inline-block;
-  height: 32px;
-  position: relative;
-  width: 58px;
-}
-.p-about {
-  width: 400px;
-  margin-bottom: 80px;
-}
-.p-tech {
-  width: 700px;
-  margin-bottom: 80px;
-}
-.p-projects {
-  width: 700px;
-  margin-bottom: 80px;
-}
+    display: inline-block;
+    height: 32px;
+    position: relative;
+    width: 58px;
+  }
+  .p-about {
+    width: 400px;
+    margin-bottom: 80px;
+  }
+  .p-tech {
+    width: 700px;
+    margin-bottom: 80px;
+  }
+  .p-projects {
+    width: 700px;
+    margin-bottom: 80px;
+  }
 }
 @media screen and (min-width: 876px) and (max-width: 1170px) {
   body {
@@ -1094,15 +1094,15 @@ input:checked + .slider:before {
     margin-left: 0;
   }
   .theme-switch {
-  height: 30px;
-  width: 58px;
-} 
-.stack-container {
-  gap: 50px;
-  width: 870px;
-  height: 310px;
-  margin-top: 10px;
-}
+    height: 30px;
+    width: 58px;
+  }
+  .stack-container {
+    gap: 50px;
+    width: 870px;
+    height: 310px;
+    margin-top: 10px;
+  }
 }
 @media screen and (min-width: 1171px) and (max-width: 1250px) {
   html {
@@ -1227,75 +1227,75 @@ input:checked + .slider:before {
     margin-left: 0;
   }
   .theme-switch {
-  display: inline-block;
-  height: 32px;
-  position: relative;
-  width: 58px;
-} 
-.stack-container {
-  gap: 40px;
-  width: 550px;
-  height: 310px;
-  margin-top: 10px;
-  margin-left: -40px;
-  justify-content: center;
-}
-.experience-container,
-.edu-container {
-  width: 500px
-}
-.div-projects {
-  height: 2400px;
-  margin-bottom: 500px;
-}
-.section-container {
-  margin-left: 0px;
-}
-.p-about {
-  width: 340px;
-  margin-bottom: 100px;
-}
-.p-about {
-  width: 400px;
-  margin-bottom: 80px;
-}
-.p-tech {
-  width: 700px;
-  margin-bottom: 80px;
-}
-.p-projects {
-  width: 700px;
-  margin-bottom: 80px;
-}
-.above-footer {
-  margin-top: 1300px;
-  margin-left: 450px;
-  font-size: 10px;
+    display: inline-block;
+    height: 32px;
+    position: relative;
+    width: 58px;
   }
-.h2-above-footer {
-  width: 200px;
-  font-size: 10px;
-}
-.h2-under-h2 {
-  margin-top: 250px;
-  width: 200px;
-  font-size: 10px;
-}
-.footer-primary {
-  margin-left: 100px;
-}
-.footer-links {
-  margin-top: -50px;
-  margin-bottom: 30px;
-  width: 560px;
-}
-.footer-p {
-  position: absolute;
-  left: 80px;
-}
-.line {
-  width: 550px;
-}
+  .stack-container {
+    gap: 40px;
+    width: 550px;
+    height: 310px;
+    margin-top: 10px;
+    margin-left: -40px;
+    justify-content: center;
+  }
+  .experience-container,
+  .edu-container {
+    width: 500px;
+  }
+  .div-projects {
+    height: 2400px;
+    margin-bottom: 500px;
+  }
+  .section-container {
+    margin-left: 0px;
+  }
+  .p-about {
+    width: 340px;
+    margin-bottom: 100px;
+  }
+  .p-about {
+    width: 400px;
+    margin-bottom: 80px;
+  }
+  .p-tech {
+    width: 700px;
+    margin-bottom: 80px;
+  }
+  .p-projects {
+    width: 700px;
+    margin-bottom: 80px;
+  }
+  .above-footer {
+    margin-top: 1300px;
+    margin-left: 450px;
+    font-size: 10px;
+  }
+  .h2-above-footer {
+    width: 200px;
+    font-size: 10px;
+  }
+  .h2-under-h2 {
+    margin-top: 250px;
+    width: 200px;
+    font-size: 10px;
+  }
+  .footer-primary {
+    margin-left: 100px;
+  }
+  .footer-links {
+    margin-top: -50px;
+    margin-bottom: 30px;
+    width: 560px;
+  }
+  .footer-p {
+    position: absolute;
+    left: 80px;
+  }
+  .line {
+    width: 550px;
+  }
 }
 @media screen and (min-width: 1281px) and (max-width: 1670px) {
   body {
