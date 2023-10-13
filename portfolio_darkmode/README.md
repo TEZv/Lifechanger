@@ -23,6 +23,6 @@ https://lifechanger-portfolio-task3.netlify.app/
 _The mentors assessment of the #Task1_: * **Here Must Be the Video but it was deleted** *<br>
 _The Score_: 40|100 <br>
 _The mentors assessment of the #Task2_: https://www.loom.com/share/a0fd975ab47c4c17a7656da5f9aa31b3 <br>
-_The Score_: 65|100
+_The Score_: 65|100 <br>
 _The mentors assessment of the #Task3_: https://www.loom.com/share/a0fd975ab47c4c17a7656da5f9aa31b3 <br>
 _The Score_: |100
