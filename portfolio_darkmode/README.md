@@ -4,7 +4,7 @@
 - [x] #REDO the adaptive view for the mobile/tablet. <br>
 - [x] #TODO the dark mode for the five sections: `Desktop1 - Desktop 5` <br>
 --> That's why I named the folder portfolio_darkmode.
-- [x] #TODO the toggle button with JS that can change the 2 images between <br> 2 modes (light/dark) in the **Project section**
+- [x] #TODO the toggle button with JS that can change the 2 images between  2 modes (light/dark) <br> in the **Project section**
 ## Figma
 The template for my practice the same as from the #Task1-2:
 https://www.figma.com/file/IKo7HvgaauT3SA3xrfsLDa/Developer-Portfolio-Design-(Community)?node-id=21%3A13&mode=dev
