@@ -15,11 +15,12 @@ https://lifechanger-portfolio-task2.netlify.app/
 <br />
 --> Netlify
 
-## Deadline:
+## Deadline
 29.09.23 <br />
 - [x] Done 70% of all requirements by 30.09.23
 
 ## Assessment
 _The mentors assessment of the #Task1_: https://www.loom.com/share/df60e8a2e0e848bbadd25283d8f3ea53 <br>
-_The mentors assessment of the #Task2_: <br>
-_The Score_: |100
+_The Score_: 40|100 <br>
+_The mentors assessment of the #Task2_: https://www.loom.com/share/a0fd975ab47c4c17a7656da5f9aa31b3 <br>
+_The Score_: 65|100
