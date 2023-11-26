@@ -21,6 +21,6 @@ https://lifechanger-portfolio-task2.netlify.app/
 
 ## Assessment
 _The mentor's assessment of the #Task1_: <br>
-40|100 <br>
+----> 40|100 <br>
 _The mentor's assessment of the #Task2_: <br>
-65|100
+----> 65|100
