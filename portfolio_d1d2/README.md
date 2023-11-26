@@ -16,5 +16,5 @@ https://lifechanger-portfolio-task1.netlify.app/
 15.09.23 <br />
 - [x] Done 70% of all requirements by 17.09.23
 ## Assessment
-_The mentor`s assessment of the #Task1_: <br>
+_The mentor's assessment of the #Task1_: <br>
 ----> 40|100
