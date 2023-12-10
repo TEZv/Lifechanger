@@ -1,14 +1,14 @@
 # Lifechanger
 
 ## My JavaScript tasks were:
-- [x] #REDO the adaptive view for the mobile/tablet. <br>
-- [x] #REDO the adaptive view for the mobile/tablet. <br>
-- [x] #REDO the adaptive view for the mobile/tablet. <br>
-- [x] #REDO the adaptive view for the mobile/tablet. <br>
-- [x] #REDO the adaptive view for the mobile/tablet. <br>
-- [x] #TODO the dark mode for the five sections: `Desktop1 - Desktop 5` <br>
---> That's why I named the folder portfolio_darkmode.
-- [x] #TODO the toggle button with JS that can change the 2 images between  2 modes (light/dark) <br> in the **Project section**
+- [x] #TODO the function with the parameter 1-7 that gives the Day of the Week <br>
+- [x] #TODO var_text_hello -> VarTextHello <br>
+- [x] #TODO the function that fills the array with 10 'x' <br>
+- [x] #TODO the function ggg with the variable 'a' and the condition <br>
+- [x] #TODO the function ggg with 2 parameters: 2 anonymous funcs <br>
+- [x] #TODO the function with the 2 array comparisons: true/false <br>
+- [x] #TODO the function -> array -> subarray with the fixed size <br>
+--> That's why I named the folder task1_javascript.
 
 ## The Website
 Of the current task:
@@ -26,6 +26,6 @@ _The mentor's assessment of the #Task1_: <br>
 _The mentor's assessment of the #Task2_: <br>
 ----> 65|100 <br>
 _The mentor's assessment of the #Task3_: <br>
-----> 70|100
+----> 70|100 <br>
 _The mentor's assessment of the #Task4_: <br>
 ----> |100
