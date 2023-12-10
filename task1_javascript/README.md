@@ -9,7 +9,7 @@
 - [x] #TODO the function with the 2 array comparisons: true/false <br>
 - [x] #TODO the function -> array -> subarray with the fixed size <br>
 
---> That's why I named the folder **task1_javascript**.
+--> That's why I named the folder **task1_javascript**😃.
 
 ## The Website
 Of the current task:
