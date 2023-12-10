@@ -8,7 +8,9 @@
 - [x] #TODO the function ggg with 2 parameters: 2 anonymous funcs <br>
 - [x] #TODO the function with the 2 array comparisons: true/false <br>
 - [x] #TODO the function -> array -> subarray with the fixed size <br>
---> That's why I named the folder task1_javascript.
+<br>
+
+--> That's why I named the folder **task1_javascript**.
 
 ## The Website
 Of the current task:
