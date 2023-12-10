@@ -124,3 +124,4 @@ function arraySliced(arr, sliceArr) {
 const slicedArray = arraySliced([21, 22, 23, 24, 25], 2); 
 
 console.log(slicedArray);
+
