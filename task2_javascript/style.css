@@ -33,6 +33,7 @@ body {
   flex-direction: column;
 }
 h1,
+h2,
 h5 {
   background-color: var(--dark-black);
   width: auto;
@@ -44,6 +45,10 @@ h5 {
 h5 {
   font-size: 18px;
   text-align: right;
+}
+h2 {
+  color: var(--contrast-yellow);
+
 }
 p {
   background-color: var(--blue);
@@ -66,7 +71,6 @@ p {
   border-radius: 10px;
   margin-bottom: 20px;
 }
-
 .swiper {
   width: auto;
   height: 500px;
@@ -107,4 +111,7 @@ p {
   font-size: 16px;
   color: var(--light-yellow);
   background-color: var(--green);
+}
+.footer {
+    margin-top: 40px;
 }
