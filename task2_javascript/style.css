@@ -1,0 +1,110 @@
+:root {
+  --blue: rgb(1, 15, 124);
+  --light-blue: rgb(25, 104, 161);
+  --light-yellow: rgb(255, 255, 74);
+  --yellow: rgb(244, 255, 35);
+  --contrast-yellow: rgb(214, 255, 33);
+  --smooth-yellow: rgb(194, 228, 42);
+  --green: rgb(38, 51, 30);
+  --dark-green: rgba(21, 22, 19, 0.91);
+  --dark-black: rgba(6, 7, 5, 0.743);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik Scribble", system-ui;
+}
+html,
+body {
+  width: 90%;
+  height: 90%;
+  margin: 50px auto;
+  background: radial-gradient(
+    ellipse at 48% 100%,
+    rgb(19, 19, 13),
+    rgb(11, 11, 17)
+  );
+}
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+h1,
+h5 {
+  background-color: var(--dark-black);
+  width: auto;
+  border: 1px solid var(--yellow);
+  color: var(--light-yellow);
+  text-align: center;
+  padding: 10px;
+}
+h5 {
+  font-size: 18px;
+  text-align: right;
+}
+p {
+  background-color: var(--blue);
+  color: var(--light-yellow);
+  font-size: 30px;
+  width: auto;
+  text-align: center;
+  padding: 2px;
+}
+.header {
+  margin-bottom: 30px;
+}
+.main {
+  padding: 10px;
+  flex: 1 auto;
+  border: 5px solid var(--contrast-yellow);
+}
+.article {
+  background-color: var(--light-yellow);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.swiper {
+  width: auto;
+  height: 500px;
+  background-color: var(--dark-green);
+}
+.post-title {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: var(--light-blue);
+  color: var(--smooth-yellow);
+}
+.post-text {
+  white-space: normal;
+  background-color: rgb(7, 7, 2);
+  color: var(--yellow);
+}
+.users-card {
+  width: auto;
+  background-color: var(--dark-green);
+}
+.users-card__post {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+}
+.users-card__item {
+  display: flex;
+  flex-direction: column;
+}
+.users-card__photo {
+  width: 220px;
+  height: 220px;
+}
+.users-card__name {
+  text-align: center;
+  font-size: 16px;
+  color: var(--light-yellow);
+  background-color: var(--green);
+}
