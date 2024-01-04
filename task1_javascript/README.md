@@ -12,12 +12,12 @@
 
 ## The Website
 Of the current task:
-https://lifechanger-javascript-task1.netlify.app/
+https://lifechanger-javascript-task2.netlify.app/
 <br />
 --> Netlify
 
 ## Deadline
-10.12.23 <br />
+05.01.24 <br />
 
 - [x] Done 100% of all requirements by 10.12.23
 ## Assessment
@@ -29,3 +29,5 @@ _The mentor's assessment of the #Task3_: <br>
 ----> 70|100 <br>
 _The mentor's assessment of the #Task4_: <br>
 ----> 100|100
+_The mentor's assessment of the #Task5_: <br>
+----> |100
