@@ -5,9 +5,8 @@
 - [x] #TODO the HTML/CSS and JS files<br>
 - [x] #TODO the head/body in the index.html; body --> header-main-footer <br>
 - [x] #TODO the main block with 10 sliders & 10 users <br>
-- [x] #TODO the users clickable and linking to the data from api<br>
-- [x] #TODO the user.html with each users' data from api<br>
-<br><br>
+- [x] #TODO the users photo been clickable and linking to the data from api<br>
+- [x] #TODO the user.html with each users' data from api<br><br>
 **P.S.** This is the second task of the course 
 --> That's why I named the folder **task2_javascript**😃.
 
