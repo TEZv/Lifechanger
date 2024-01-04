@@ -35,3 +35,13 @@ The portfolio_darkmode website: https://lifechanger-portfolio-task3.netlify.app/
 ├── _task1_javascript_----> _#Task 4_ <br>
 └── README.md <br>
 The task1_javascript website: https://lifechanger-javascript-task1.netlify.app/
+
+## **#Task 5**
+### `Duration`: 02.01.24-05.01.24
+.<br>
+├── portfolio_d1d2          
+├── portfolio_d3d4d5 <br>
+├── portfolio_darkmode <br>
+├── _task1_javascript_----> _#Task 4_ <br>
+└── README.md <br>
+The task1_javascript website: https://lifechanger-javascript-task1.netlify.app/
