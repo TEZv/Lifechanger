@@ -19,7 +19,7 @@ https://lifechanger-javascript-task2.netlify.app/
 ## Deadline
 05.01.24 <br />
 
-- [x] Done 100% of all requirements by 10.12.23
+- [x] Done 95% of all requirements by 05.01.24
 ## Assessment
 _The mentor's assessment of the #Task1_: <br>
 ----> 40|100 <br>
