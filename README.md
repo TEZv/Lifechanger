@@ -43,6 +43,6 @@ The task1_javascript website: https://lifechanger-javascript-task1.netlify.app/
 ├── portfolio_d3d4d5 <br>
 ├── portfolio_darkmode <br>
 ├── task1_javascript <br>
-├── _task1_javascript_----> _#Task 5_ <br>
+├── _task2_javascript_----> _#Task 5_ <br>
 └── README.md <br>
 The task2_javascript website: https://lifechanger-javascript-task2.netlify.app/
