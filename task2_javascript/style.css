@@ -47,16 +47,19 @@ h5 {
   text-align: right;
 }
 h2 {
-  color: var(--contrast-yellow);
-
+  color: var(--light-blue);
+  font-size: 28px;
 }
-p {
+header.header > p, p {
   background-color: var(--blue);
   color: var(--light-yellow);
-  font-size: 30px;
+  font-size: 24px;
   width: auto;
   text-align: center;
-  padding: 2px;
+}
+.user-info p {
+    font-size: 20px;
+    padding: 8px;
 }
 .header {
   margin-bottom: 30px;
@@ -77,14 +80,14 @@ p {
   background-color: var(--dark-green);
 }
 .post-title {
-  font-size: 22px;
+  font-size: 26px;
   margin-bottom: 10px;
   text-align: center;
   background-color: var(--light-blue);
   color: var(--smooth-yellow);
 }
 .post-text {
-  white-space: normal;
+  padding: 20px;
   background-color: rgb(7, 7, 2);
   color: var(--yellow);
 }
