@@ -72,41 +72,39 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  const getQueryParam = (name) => {
-    const urlParams = new URLSearchParams(window.location.search);
-    return urlParams.get(name);
-  };
-  const userId = getQueryParam("id");
-  if (userId) {
-    fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
-      .then((response) => response.json())
-      .then((user) => {
-        const userInfoContainer = document.getElementById("user-info");
+const getQueryParam = (name) => {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get(name);
+};
+const userId = getQueryParam("id");
+if (userId) {
+  fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
+    .then((response) => response.json())
+    .then((user) => {
+      const userInfoContainer = document.getElementById("user-info");
 
-        const userName = document.createElement("h2");
-        userName.textContent = user.name;
+      const userName = document.createElement("h2");
+      userName.textContent = user.name;
 
-        const userAddress = document.createElement("p");
-        userAddress.textContent = `Address: ${user.address.street}, ${user.address.suite}, ${user.address.city}, ${user.address.zipcode}`;
+      const userAddress = document.createElement("p");
+      userAddress.textContent = `Address: ${user.address.street}, ${user.address.suite}, ${user.address.city}, ${user.address.zipcode}`;
 
-        const userEmail = document.createElement("p");
-        userEmail.textContent = `Email: ${user.email}`;
+      const userEmail = document.createElement("p");
+      userEmail.textContent = `Email: ${user.email}`;
 
-        const userPhone = document.createElement("p");
-        userPhone.textContent = `Phone: ${user.phone}`;
+      const userPhone = document.createElement("p");
+      userPhone.textContent = `Phone: ${user.phone}`;
 
-        const userWebsite = document.createElement("p");
-        userWebsite.textContent = `Website: ${user.website}`;
+      const userWebsite = document.createElement("p");
+      userWebsite.textContent = `Website: ${user.website}`;
 
-        userInfoContainer.appendChild(userName);
-        userInfoContainer.appendChild(userAddress);
-        userInfoContainer.appendChild(userEmail);
-        userInfoContainer.appendChild(userPhone);
-        userInfoContainer.appendChild(userWebsite);
-      })
-      .catch((error) => {
-        console.error("Error fetching user details:", error);
-      });
-  }
-});
+      userInfoContainer.appendChild(userName);
+      userInfoContainer.appendChild(userAddress);
+      userInfoContainer.appendChild(userEmail);
+      userInfoContainer.appendChild(userPhone);
+      userInfoContainer.appendChild(userWebsite);
+    })
+    .catch((error) => {
+      console.error("Error fetching user details:", error);
+    });
+}
